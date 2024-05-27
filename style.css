@@ -1,0 +1,190 @@
+.main{
+    height: 4000px;
+    color: aliceblue;
+}
+
+.chat_block{
+   background: rgba(27,33,45,255);
+   width: 100%;
+   height: 3000px;
+   padding-top: 5px;
+}
+
+.chat_info{
+    width: 300px;
+    height: 100px;
+}
+
+.chat_extra_info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 150px;
+    height: 80px;
+}
+
+.chat_notification_sound{
+    background-size : cover;
+    background-position :center;
+    width: 20px;
+    height: 20px;
+}
+
+.chat_name {
+    display: inline;
+    width: 80%;
+    height: 50px;
+}
+
+.chat{
+    display: flex;
+    justify-content: center;
+    margin: 15px 15px 15px 0;
+    width: 100%;
+    border-bottom : 0.01rem solid rgba(91, 91, 91, 0.4) ;
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+}
+
+.chat_info_innerup{
+    display:flex;
+    width: 300px;
+    height: 50px;
+}
+
+.chat_info_innerdown{
+    display:flex;
+    width: 300px;
+    height: 50px;
+}
+
+.chat_quantity_msgs{
+    background: #919191;
+    border-radius: 20px ;
+    text-align: center;
+    padding: 5px 5px;
+    color: #273345;
+    width: 50px;
+    height: 30px;
+}
+
+.chat_prev_content_txt{
+   color : #919191;
+   width: 200px;
+   height: 30px;
+}
+
+.chat_timestamp{
+   color : #919191;
+   width: 80px;
+   height: 30px;
+}
+
+.chat_img{
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: 30px; 
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.chat_prev_content_photo{
+    width: 50px;
+    height: 30px;
+    background-repeat : no-repeat;
+}
+
+
+
+.header_block{
+   padding: 0 50px 0 50px;
+    height: 160px;
+    background-color: #233040;
+}
+
+.header{
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.edit{
+   
+    color: #7b9fc1;
+}
+.page_name{
+    display: flex;
+}
+
+.page_name_txt{
+
+}
+
+.page_name_img{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.create{
+  
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+ 
+.search_block{
+    display: flex;
+    background:  rgba(27,33,45,255);
+    color : #919191;
+    border-radius: 12px;
+    height: 40px;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.folders{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.name_folder{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.name_folder_quantity{
+    background-color: #559fe0;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.search_block_icon{
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.name_folder_icon{
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
